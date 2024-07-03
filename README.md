@@ -25,11 +25,17 @@ Environment Setup: Install required libraries using requirements.txt.
 **Steps:**
 
 **Step-1**: **pip install -r requirements.txt**
+
 **Step-2**: Fine-tune the selected model(s) on the dataset.
+
    **python train.py --model_name bert-base-uncased --epochs 3 --batch_size 32**
+   
 **Step-3**: Use the trained model to predict sarcasm in new texts.
+
     **python predict.py --model_name bert-base-uncased --text "This is clearly the best day ever..."**
+    
 **Step-4**: Evaluation: Evaluate model performance on a validation set.
+
      **python evaluate.py --model_name bert-base-uncased --val_data val.csv**
 
 **Future Improvements**
