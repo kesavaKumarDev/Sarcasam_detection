@@ -36,7 +36,8 @@ Environment Setup: Install required libraries using requirements.txt.
     
 **Step-4**: Evaluation: Evaluate model performance on a validation set.
 
-     python evaluate.py --model_name bert-base-uncased --val_data val.csv
+   **python evaluate.py --model_name bert-base-uncased --val_data val.csv**
+
 
 **Future Improvements**
 
