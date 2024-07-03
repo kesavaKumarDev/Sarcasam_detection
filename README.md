@@ -34,7 +34,7 @@ Environment Setup: Install required libraries using requirements.txt.
 
    **python predict.py --model_name bert-base-uncased --text "This is clearly the best day ever..."**
     
-**Step-4**: Evaluation: Evaluate model performance on a validation set.
+**Step-4**: Evaluate model performance on a validation set.
 
    **python evaluate.py --model_name bert-base-uncased --val_data val.csv**
 
